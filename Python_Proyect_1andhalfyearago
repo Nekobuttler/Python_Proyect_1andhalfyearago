@@ -1,0 +1,273 @@
+import os
+cursos=0
+Estudiante=[]
+def matricula():
+    cursos=0
+    codigo=1
+    while codigo != 0:
+         print('1= MA101:Matematicas discretas')
+         print('2= C201')
+         print('3= QUI101')
+         print('4= MA102')
+         print('5= PRECA01')
+         print('6= M789:')
+         print('7= CAL02')
+         print('8= Finalizar Matricula')
+         print('0= salir')
+         codigo=int(input('digite el codigo del curso que desea matricular: '))
+         if codigo==1:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(MA101[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(MA101[0])<=20:
+                    MA101[0].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('MA101')
+                    cursos+=1
+                    menu=0
+
+             elif menu == 2:
+                 if len([1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(MA101[1])<=10:
+                    MA101[1].append(name)
+                    cursos+=1
+                    clases.append('MA101')
+                    print('se ha matriculado con exito')
+                    menu=0
+         if codigo==2:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(C201[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(C201[0])<=20:
+                    C201[0].append(name)
+                    cursos+=1
+                    clases.append('C201')
+                    print('se ha matriculado con exito')
+                    menu=0
+
+             elif menu == 2:
+                 if len(C201[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(C201[1])<=10:
+                    C201[1].append(name)
+                    print('se ha matriculado con exito')
+                    cursos+=1
+                    clases.append('C201')
+                    menu=0
+         if codigo==3:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(QUI101[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(QUI101[0])<=20:
+                    QUI101[0].append(name)
+                    print('se ha matriculado con exito')
+                    cursos+=1
+                    clases.append('QUI101')
+                    menu=0
+
+             elif menu == 2:
+                 if len(QUI101[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(QUI101[1])<=10:
+                    QUI101[1].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('QUI101')
+                    cursos+=1
+                    menu=0
+         if codigo==4:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(MA102[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(MA102[0])<=20:
+                    MA102[0].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('MA102')
+                    cursos+=1
+                    menu=0
+
+             elif menu == 2:
+                 if len(MA102[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(MA102[1])<=10:
+                    MA102[1].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('MA102')
+                    cursos+=1
+                    menu=0
+         if codigo==5:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(CAL02[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(CAL02[0])<=20:
+                    CAL02[0].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('CAL02')
+                    cursos+=1
+                    menu=0
+
+             elif menu == 2:
+                 if len(CAL02[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(CAL02[1])<=10:
+                    CAL02[1].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('CAL02')
+                    cursos+=1
+                    menu=0
+         if codigo==6:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(PRECA01[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(PRECA01[0])<=20:
+                    PRECA01[0].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('PRECA01')
+                    cursos+=1
+                    menu=0
+
+             elif menu == 2:
+                 if len(PRECA01[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(PRECA01[1])<=10:
+                    PRECA01[1].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('PRECA01')
+                    cursos+=1
+                    menu=0
+         if codigo==7:
+             menu=1
+             print('1.presencial')
+             print('2.virtual')
+             menu=int(input('Ingrese su opcion'))
+             if menu==1:
+                 if len(M789[0])>=20:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(M789[0])<=20:
+                    M789[0].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('M789')
+                    cursos+=1
+                    menu=0
+
+             elif menu == 2:
+                 if len(M789[1])>=10:
+                    print('Vuelva a intertarlo, espacios llenos ')
+                    menu=0
+                 elif len(M789[1])<=10:
+                    M789[1].append(name)
+                    print('se ha matriculado con exito')
+                    clases.append('M789')
+                    cursos+=1
+                    menu=0
+            
+    print('el numero de cursos corresponde a : ')
+    print(cursos)
+    print('Factura:')
+    print(Estudiante)
+    matricula= 70000
+    materias=cursos*120000
+    if(cursos == 4 )or (cursos == 5) :                                                                                                                                                                        
+            print("el total a pagar: " , (materias-materias/10)+(matricula))
+    elif cursos ==6 :
+        print("el total a pagar: ", (materias-(materias * 0.15 ) +matricula - matricula*0.05))
+    elif cursos ==2 or cursos==3:
+        print("el total a pagar: " ,materias + matricula)
+   
+
+
+
+                
+
+
+MA101=[]
+C201=[]
+QUI101=[]
+MA102=[]
+CAL02=[]
+PRECA01=[]
+M789=[]
+presencial=[]
+virtual=[]
+name=input("ingrese el nombre del estudiante a matricular")
+correo=input("ingrese el correo del estudiante a matricular")
+number=input("ingrese el numero del estudiante a matricular")
+Estudiante=[name,correo,number]
+menu=1
+MA101.append(presencial)
+C201.append(presencial)
+QUI101.append(presencial)
+MA102.append(presencial)
+CAL02.append(presencial)
+PRECA01.append(presencial)
+M789.append(presencial)
+
+MA101.append(virtual)
+C201.append(virtual)
+QUI101.append(virtual)
+MA102.append(virtual)
+CAL02.append(virtual)
+PRECA01.append(virtual)
+M789.append(virtual)
+clases=[]
+Estudiante.append(clases)
+def save_curso():
+   archivo=open()
+def save_data():
+   archivo=open(name.txt,'w')
+   archivo.write('Datos personales'+'\n')
+   archivo.write('Nombre del estudiante: '+ str(Estudiante[0]) )
+   archivo.write('Correo electronico del estudiante: '+ str(Estudiante[1]) )
+   archivo.write('Numero de telefono del estudiante: '+ str(Estudiante[2]) )
+
+while menu!=0:
+    print('1.Matricular')
+    print('2.Ver datos')
+    print('3.Modificar datos')
+    print('4.Congelar')
+    print('0.Salir')
+    menu=int(input('Ingrese la opcion de su preferencia: '))
+    if menu==1:
+        matricula()
+        
+    
+
+              
+    
